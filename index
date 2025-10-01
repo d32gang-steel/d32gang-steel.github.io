@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>我的主页</title>
+    <style>
+        body { font-family: Arial; text-align: center; }
+        h1 { color: #0366d6; }
+    </style>
+</head>
+<body>
+    <h1>你好，世界！</h1>
+    <p>这是我的 GitHub Pages 主页</p>
+</body>
+</html>
