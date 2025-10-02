@@ -1,14 +1,234 @@
 <!DOCTYPE html>
-<html>
+<html lang="zh-CN">
 <head>
-    <title>⚙D32_gang's Page</title>
-    <style>
-        body { font-family: Arial; text-align: center; }
-        h1 { color: #0366d6; }
-    </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>⚙ D32_gang's Page</title>
+    <!-- 引入字体图标库 -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- 引入Google字体 -->
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&family=Open+Sans:wght@300;400;600&display=swap" rel="stylesheet">
+    <!-- 引入外部CSS文件 -->
+    <link rel="stylesheet" href="./assets/css/index.css">
 </head>
 <body>
-    <h1>你好，世界！</h1>
-    <p>这是我的 GitHub Pages 主页</p>
+    <!-- 顶部横幅区域 -->
+    <section class="hero">
+        <div class="hero-content">
+            <h1>时代，前进！</h1>
+        </div>
+    </section>
+
+    <!-- 主内容区域 -->
+    <div class="container">
+        <section class="main-content">
+            <div class="section-title">
+                <h2>我的技能专长</h2>
+            </div>
+            
+            <div class="features-grid">
+                <div class="feature-card">
+                    <div class="card-header">
+                        <i class="fas fa-code"></i>
+                        <h3>前端开发</h3>
+                    </div>
+                    <div class="card-body">
+                        <ul>
+                            <li><i class="fab fa-html5"></i>HTML5 & 语义化标记</li>
+                            <li><i class="fab fa-css3-alt"></i>CSS3 & 响应式设计</li>
+                            <li><i class="fab fa-js"></i>JavaScript & ES6+</li>
+                            <li><i class="fab fa-react"></i>React & Vue.js框架</li>
+                            <li><i class="fas fa-mobile-alt"></i>移动端适配</li>
+                        </ul>
+                    </div>
+                </div>
+                
+                <div class="feature-card">
+                    <div class="card-header">
+                        <i class="fas fa-server"></i>
+                        <h3>后端技术</h3>
+                    </div>
+                    <div class="card-body">
+                        <ul>
+                            <li><i class="fab fa-node-js"></i>Node.js & Express</li>
+                            <li><i class="fas fa-database"></i>MongoDB & PostgreSQL</li>
+                            <li><i class="fas fa-bolt"></i>RESTful API设计</li>
+                            <li><i class="fas fa-cloud"></i>云服务部署</li>
+                            <li><i class="fas fa-shield-alt"></i>身份验证与安全</li>
+                        </ul>
+                    </div>
+                </div>
+                
+                <div class="feature-card">
+                    <div class="card-header">
+                        <i class="fas fa-paint-brush"></i>
+                        <h3>UI/UX设计</h3>
+                    </div>
+                    <div class="card-body">
+                        <ul>
+                            <li><i class="fas fa-drafting-compass"></i>Figma & Adobe XD</li>
+                            <li><i class="fas fa-user-friends"></i>用户研究</li>
+                            <li><i class="fas fa-magic"></i>交互设计</li>
+                            <li><i class="fas fa-palette"></i>品牌设计</li>
+                            <li><i class="fas fa-chart-line"></i>用户体验优化</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+    
+    <!-- 项目展示区 -->
+    <section class="projects-section" id="projects">
+        <div class="container">
+            <div class="section-title">
+                <h2>精选项目</h2>
+            </div>
+            
+            <div class="projects-container">
+                <div class="project-card">
+                    <div class="project-img">E-commerce UI</div>
+                    <div class="project-content">
+                        <h3>电商平台前端</h3>
+                        <p>使用React构建的响应式电商平台前端界面，包含购物车、商品展示和结账流程。</p>
+                        <a href="#" class="project-link">查看项目 <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+                
+                <div class="project-card">
+                    <div class="project-img">Task Manager</div>
+                    <div class="project-content">
+                        <h3>任务管理系统</h3>
+                        <p>基于MERN栈的任务管理应用>基于MERN栈的任务管理应用，支持任务创建、分配、跟踪和实时通知。</p>
+                        <a href="#" class="project-link">查看项目 <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+                
+                <div class="project-card">
+                    <div class="project-img">Travel App</div>
+                    <div class="project-content">
+                        <h3>旅行规划应用</h3>
+                        <p>整合地图API的旅行规划工具，帮助用户创建行程、预订住宿和发现景点。</p>
+                        <a href="#" class="project-link">查看项目 <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- 联系区域 -->
+    <section class="contact-section" id="contact">
+        <div class="container">
+            <div class="section-title">
+                <h2>联系我</h2>
+            </div>
+            
+            <div class="contact-grid">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <div class="contact-text">
+                            <h3>电子邮件</h3>
+                            <p>contact@developer.com</p>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fab fa-github"></i>
+                        </div>
+                        <div class="contact-text">
+                            <h3>GitHub</h3>
+                            <p>github.com/yourusername</p>
+                            <div class="social-links">
+                                <a href="#" class="social-link"><i class="fab fa-github"></i></a>
+                                <a href="#" class="social-link"><i class="fab fa-linkedin"></i></a>
+                                <a href="#" class="social-link"><i class="fab fa-twitter"></i></a>
+                                <a href="#" class="social-link"><i class="fab fa-instagram"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="contact-form">
+                    <form id="contactForm">
+                        <div class="form-group">
+                            <input type="text" placeholder="您的姓名" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" placeholder="电子邮箱" required>
+                        </div>
+                        <div class="form-group">
+                            <textarea placeholder="您的留言" rows="5" required></textarea>
+                        </div>
+                        <button type="submit" class="btn">发送消息</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- 页脚 -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <p>&copy; 2023 开发者主页. 保留所有权利</p>
+                <p>使用HTML, CSS和JavaScript构建 | 托管在GitHub Pages</p>
+            </div>
+        </div>
+    </footer>
+    
+    <!-- 返回顶部按钮 -->
+    <div class="back-to-top" id="backToTop">
+        <i class="fas fa-arrow-up"></i>
+    </div>
+
+    <!-- JavaScript代码 -->
+    <script>
+        // 返回顶部功能
+        const backToTopButton = document.getElementById('backToTop');
+        
+        window.addEventListener('scroll', () => {
+            if (window.pageYOffset > 300) {
+                backToTopButton.classList.add('show');
+            } else {
+                backToTopButton.classList.remove('show');
+            }
+        });
+        
+        backToTopButton.addEventListener('click', () => {
+            window.scrollTo({
+                top: 0,
+                behavior: 'smooth'
+            });
+        });
+        
+        // 平滑滚动导航
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function(e) {
+                e.preventDefault();
+                
+                const target = document.querySelector(this.getAttribute('href'));
+                if (target) {
+                    window.scrollTo({
+                        top: target.offsetTop - 80,
+                        behavior: 'smooth'
+                    });
+                }
+            });
+        });
+        
+        // 表单提交处理
+        const contactForm = document.getElementById('contactForm');
+        if (contactForm) {
+            contactForm.addEventListener('submit', function(e) {
+                e.preventDefault();
+                alert('感谢您的留言！我会尽快回复您。');
+                contactForm.reset();
+            });
+        }
+    </script>
 </body>
 </html>
